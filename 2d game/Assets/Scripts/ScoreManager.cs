@@ -29,7 +29,7 @@ public class ScoreManager : MonoBehaviour {
 
     }
 
-    public static void Reset () {
-        Score = 0;
-    }
+    //public static void Reset () {
+    //    Score = 0;
+    //}
 }
