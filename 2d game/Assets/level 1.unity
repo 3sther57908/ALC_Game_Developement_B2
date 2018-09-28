@@ -263,7 +263,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 31766384}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 876bfada59e064091860bba66862e536, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -332,7 +332,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 31766384}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.1, y: -2.3, z: 0}
+  m_LocalPosition: {x: -8.38, y: 26.27, z: 0}
   m_LocalScale: {x: 7.7569375, y: 7.6441393, z: 1}
   m_Children:
   - {fileID: 421370222}
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31bb607082d2444329e833bdd8d77730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 4
+  MoveSpeed: 10
   JumpHeight: 11
   groundcheck: {fileID: 421370222}
   groundCheckRadius: 0.5
@@ -1042,7 +1042,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 506493194}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 166.6, y: 115, z: 0}
+  m_LocalPosition: {x: 159.89, y: 101.1, z: 0}
   m_LocalScale: {x: 1.1916045, y: 1.5360599, z: 0.9999998}
   m_Children: []
   m_Father: {fileID: 1304627397}
@@ -1256,7 +1256,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &560504009
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1334,7 +1334,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 560504007}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.89, y: -3.49, z: -0.83875334}
+  m_LocalPosition: {x: 28.67, y: 31.25, z: -0.83875334}
   m_LocalScale: {x: 13.030983, y: 12.087786, z: 1}
   m_Children:
   - {fileID: 2066475755}
@@ -1353,10 +1353,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca6f2a661047465183b61f0ad801ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 4
+  MoveSpeed: 70
   MoveRight: 0
   WallCheck: {fileID: 2066475755}
-  WallCheckRadius: 0.5
+  WallCheckRadius: 0.2
   WhatIsWall:
     serializedVersion: 2
     m_Bits: 768
