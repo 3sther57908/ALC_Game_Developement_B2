@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 71291cfc8912149dd8d07dbd8f1a9986
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - PC: {instanceID: 0}
+  - EnemyDeath: {fileID: 1050753694653180, guid: 4c9d819cf1cf7498e93dd1eadeae7ccb,
+      type: 2}
+  - ProjectileParticle: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
