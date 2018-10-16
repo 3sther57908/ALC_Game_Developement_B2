@@ -19,13 +19,14 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         //PC = FindObjectOfType<Rigidbody2D>();
+        if (PC.transform.localScale.x < 0)
+            Speed = -Speed;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (PC.transform.localScale.x < 0)
-            Speed = -Speed;
         GetComponent<Rigidbody2D>().velocity = new Vector2(Speed, GetComponent<Rigidbody2D>().velocity.y);
 
     }
