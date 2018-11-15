@@ -7,7 +7,7 @@ public class Projectile : MonoBehaviour
 
     public float Speed;
 
-    public Rigidbody2D PC;
+    public GameObject PC;
 
     public float TimeOut;
 
