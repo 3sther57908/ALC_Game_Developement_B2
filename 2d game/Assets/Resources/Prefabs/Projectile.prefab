@@ -89,9 +89,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71291cfc8912149dd8d07dbd8f1a9986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 50
+  Speed: 70
   PC: {fileID: 1379748739450284, guid: c27d2cd2841094c4a993c1bb29fcdfd0, type: 2}
-  TimeOut: 3
+  TimeOut: 5
   EnemyDeath: {fileID: 1074064160539430, guid: b901f9a4f55b2456cb0b9aba162ab6d7, type: 2}
   ProjectileParticle: {fileID: 1236261139193160, guid: 8c0d8a4e0f5144ff7b221a5daeeb186c,
     type: 2}

@@ -74,6 +74,6 @@ public class LevelManager : MonoBehaviour {
         PC.GetComponent<Renderer>().enabled = true;
 
         //Spawn PC
-        Instantiate(respawnParticle, currentCheckPoint.transform.position, currentCheckPoint.transform.rotation);
+        Instantiate(Resources.Load("Prefabs/Respawn_P") as GameObject, currentCheckPoint.transform.position, currentCheckPoint.transform.rotation);
     }
 }
