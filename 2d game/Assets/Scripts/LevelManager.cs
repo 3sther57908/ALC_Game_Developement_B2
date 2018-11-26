@@ -41,7 +41,7 @@ public class LevelManager : MonoBehaviour {
     public IEnumerator RespawnPlayerCo(){
        
         //Generate Death Particle
-       Instantiate(deathParticle, PC.transform.position, PC.transform.rotation);
+        Instantiate(Resources.Load("Prefabs/Death_P") as GameObject, PC.transform.position, PC.transform.rotation);
 
         //Hide Player
         //PC.enabled = (false);
