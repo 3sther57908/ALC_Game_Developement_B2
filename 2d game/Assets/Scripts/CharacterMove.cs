@@ -66,12 +66,16 @@ public class CharacterMove : MonoBehaviour
         }
 
         else if(Input.GetKeyUp (KeyCode.D)){
-            animator.SetBool("isWalking", true);
+            animator.SetBool("isWalking", false);
         }
 
         if(Input.GetKey (KeyCode.A)){
             //GetComponent<Rigidbody2D>().velocity = new Vector2(-MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
             moveVelocity = -MoveSpeed;
+            animator.SetBool("isWalking", true);
+        }
+
+        else if(Input.GetKeyUp(KeyCode.A)){
             animator.SetBool("isWalking", false);
         }
 
@@ -79,10 +83,10 @@ public class CharacterMove : MonoBehaviour
 
         //Player flip
         if (GetComponent<Rigidbody2D>().velocity.x > 0)
-            transform.localScale = new Vector3(3.27f, 3.88f, 1f);
+            transform.localScale = new Vector3(0.36f, 0.36f, 1f);
 
         else if (GetComponent<Rigidbody2D>().velocity.x < 0)
-            transform.localScale = new Vector3(-3.27f, 3.8f, 1f);
+            transform.localScale = new Vector3(-0.36f, 0.36f, 1f);
     }
 
     public void Jump()
